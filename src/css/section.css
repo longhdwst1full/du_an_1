@@ -1,0 +1,357 @@
+.section--banner1 img {
+    width: 100%;
+    height: auto;
+}
+
+.grid .section--product-1 {
+    margin-top: 20px;
+}
+
+.section--product-1>.row:first-child {
+    margin-bottom: 20px;
+}
+
+.product-1 {
+    overflow: hidden;
+    display: block;
+}
+
+.product-1-col-1 {
+    height: 400px;
+    position: relative;
+}
+
+.product_hover_change {
+    overflow: hidden;
+    position: relative;
+    height: 400px;
+}
+
+.product-1__img {
+    transform: scale(1.2);
+    width: 100%;
+    height: 100%;
+    transition-duration: 0.5s;
+}
+
+.product-1__img:hover {
+    transform: scale(1.4);
+}
+
+.product-1__name {
+    position: absolute;
+    bottom: 20%;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #fff;
+    z-index: 4;
+    transform: translate(-50%, -50%);
+    right: 50%;
+    left: 50%;
+    text-align: center;
+    min-width: 240px;
+    transition-duration: 0.5s;
+}
+
+.section--product-1__amount {
+    color: #ffffff;
+    position: absolute;
+    display: none;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    right: 50%;
+    left: 50%;
+    transition-duration: 0.5s;
+    transition: all 3s ease;
+    min-width: 200px;
+    bottom: 0;
+    font-size: 20px;
+}
+
+.product_hover_change:hover .product-1__name {
+    color: #ff2d37;
+    bottom: 30%;
+}
+
+.product_hover_change:hover .section--product-1__amount {
+    display: block;
+    bottom: 20%;
+    color: #ffffff;
+}
+
+.grid .section__product--hot {
+    margin-top: 50px;
+}
+
+.section__product--hot__banner {
+    height: 350px;
+}
+
+.product--hot__img img {
+    width: 100%;
+    height: auto;
+}
+
+.product__banner {
+    border: 1px dotted #dddcdc;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.product__banner__name p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.product__banner__name p:hover {
+    color: #ff2d37;
+}
+
+.product__banner__price {
+    border: 1px dotted #dddcdc;
+    margin: 3px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__banner__price--cost {
+    color: #ff2d37;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    /* padding-top: 10px; */
+}
+
+.product__banner__price--sale {
+    color: #333;
+    padding-left: 20px;
+}
+
+
+/* .product__banner__btn--detail{
+    width: 70px;
+    height: 25px;
+} */
+
+.product__banner__btn--detail a {
+    border: none;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    background-color: #ff2d37;
+    color: #ffffff;
+    margin-right: 10px;
+    min-width: 65px;
+    height: 25px;
+    border-radius: 5px;
+    padding: 5px 8px 5px 8px;
+}
+
+.product__banner__btn--detail a:hover {
+    background-color: #f9ddde;
+    border: 1px solid #ff2d37;
+    color: #ff2d37;
+}
+
+.section__product--hot h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid .section__wrap--review--1 {
+    /* border: 1px solid black; */
+    margin-top: 40px;
+}
+
+.warp--review--1--row-1 {
+    display: flex;
+}
+
+.review--1-row--1__img img {
+    width: 95%;
+}
+
+.warp--review--1--row-1__text {
+    width: 75%;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.warp--review--1--row-1__text h2 {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.warp--review--1--row-1__text p {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+.warp--review--1--row-1__text__see-more a {
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+.warp--review--1--row-1__text__see-more {
+    padding-top: 30px;
+}
+
+.warp--review--1--row-1__text a:hover {
+    color: #ff2d37;
+}
+
+.warp--review--1--row-2 {
+    margin-top: 20px;
+}
+
+
+/* REVIEW--2- */
+
+.grid .section__wrap--review--2 {
+    /* border: 1px solid black; */
+    margin-top: 40px;
+}
+
+.warp--review--2--row-1 {
+    display: flex;
+}
+
+.review--2-row--1__img img {
+    width: 95%;
+    margin-left: 25px;
+}
+
+.warp--review--2--row-1__text {
+    width: 75%;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.warp--review--2--row-1__text h2 {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.warp--review--2--row-1__text p {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+.warp--review--2--row-1__text a {
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+.warp--review--2--row-1__text a:hover {
+    color: #ff2d37;
+}
+
+.warp--review--2--row-2 {
+    margin-top: 20px;
+}
+
+
+/* .grid .section__wrap--category--review{
+     
+} */
+
+.img--banner--category img {
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.p--category--product--menu {
+    color: #ff2d37;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.p--sup--product--menu {
+    padding-top: 12px;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.ul--sup--product--menu ul {
+    padding: 10px 15px;
+    list-style-type: none;
+}
+
+.ul--sup--product--menu li a {
+    display: block;
+    padding: 10px;
+    color: #282828;
+    list-style: none;
+}
+
+.ul--sup--product--menu li a:hover {
+    color: #ff2d37;
+}
+
+
+/* Slider Product sale */
+
+.prevArrow.slick-arrow {
+    display: block !important;
+    background-color: #ff2d37;
+    position: absolute;
+    top: 30%;
+    padding: 17px 20px;
+    left: -1.5%;
+    z-index: 999;
+    /* border-radius: 40px 0 0 40px; */
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.2s all linear;
+}
+
+.prevArrow.slick-arrow i {
+    color: #ffffff;
+}
+
+.nextArrow.slick-arrow i {
+    color: #ffffff;
+}
+
+.nextArrow.slick-arrow:hover {
+    background-color: #333;
+}
+
+.prevArrow.slick-arrow:hover {
+    background-color: #333;
+}
+
+.nextArrow.slick-arrow {
+    display: block !important;
+    background-color: #ff2d37;
+    position: absolute;
+    padding: 17px 20px;
+    top: 30%;
+    z-index: 999;
+    border-radius: 50px;
+    /* border-radius: 0 40px 40px 0; */
+    right: -1.5%;
+    transition: 0.2s all linear;
+    cursor: pointer;
+}
+
+
+/* Slider Product sale */

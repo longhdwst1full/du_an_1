@@ -1,0 +1,233 @@
+.grid.wide.your--order {
+    padding-top: 30px;
+}
+
+.link--yourOder>ul>li>a {
+    display: block;
+    padding-right: 8px;
+    color: #000000;
+}
+
+.detail--yourOrder {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.detail--yourOrder>.title__detail--yourOrder>h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 24px;
+    color: #ff2d37;
+}
+
+.detail--yourOrder>.title__detail--yourOrder>h3 {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.detail--yourOrder>.table__detail--yourOrde {
+    width: 100%;
+}
+
+.detail--yourOrder>.table__detail--yourOrder>table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.detail--yourOrder>.table__detail--yourOrder>table th {
+    padding: 20px 0;
+    background-color: #ff2d37;
+    color: #ffffff;
+    font-size: 16px;
+    border-color: #ffffff;
+}
+
+.detail--yourOrder>.table__detail--yourOrder>table td {
+    text-align: center;
+    padding: 10px 0;
+    border-color: #ccc;
+}
+
+button.btnSee__detail--yourOrder {
+    padding: 7px 10px;
+    background-color: #ff2d37;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+button.detailBill--cancelOrder {
+    padding: 7px 10px;
+    background-color: #8d87c4;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+button.detailBill--cancelOrder:hover {
+    background-color: #4c4877;
+}
+
+button.btnSee__detail--yourOrder:hover {
+    background-color: rgb(121, 21, 21);
+}
+
+.over-lay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10001;
+    cursor: pointer;
+    transition: all linear 0.2s;
+    animation: backGroundShow linear 0.2s;
+}
+
+.over-lay-payment {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1004;
+    cursor: pointer;
+    transition: all linear 0.2s;
+    animation: backGroundShow linear 0.2s;
+}
+
+div.payment--success {
+    position: fixed;
+    background-color: #ffffff;
+    top: 0;
+    left: 37%;
+    z-index: 1005;
+    width: 500px;
+    border-radius: 0 0 10px 10px;
+    /* box-shadow: 20px 20px 50px #ffffff; */
+    transition: all linear 0.2s;
+    animation: backGroundShow linear 0.2s;
+}
+
+h2.congratulation {
+    color: #ff2d37;
+    padding: 10px 0;
+    font-size: 24px;
+}
+
+.payment--success-hidden {
+    display: none;
+}
+
+.btn--linkedPag {
+    padding: 20px 0 30px 0;
+}
+
+.btn--linkedPag button {
+    padding: 10px;
+    background-color: #ff2d37;
+    color: #ffffff;
+    font-weight: bold;
+    border: 1px solid #ff2d37;
+    outline: none;
+    border-radius: 100rem;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+
+.btn--linkedPag button.continues-buy:hover {
+    color: #ff2d37;
+    background-color: #ffffff;
+    border: 1px solid #ff2d37;
+}
+
+.btn--linkedPag button.btn-see--detailProduct:hover {
+    color: #afb830;
+    background-color: #ffffff !important;
+    border: 1px solid #afb830 !important;
+}
+
+.detail_payment--success::-webkit-scrollbar {
+    width: 5px;
+}
+
+.detail_payment--success::-webkit-scrollbar-track {
+    background-color: #ffffff;
+}
+
+.detail_payment--success::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+
+div.detail_payment--success {
+    position: fixed;
+    background-color: #ffffff;
+    top: 20%;
+    left: 30%;
+    z-index: 10001;
+    width: 800px;
+    height: 500px;
+    overflow-y: scroll;
+    /* border-radius: 10px; */
+    /* box-shadow: 20px 20px 50px #ffffff; */
+    transition: all linear 0.2s;
+    animation: backGroundShow linear 0.2s;
+}
+
+div.detail_payment--success h2 {
+    padding: 0 15px 15px 15px;
+    font-size: 20px;
+    color: #ff2d37;
+    /* margin-top: -25px; */
+}
+
+.btn-exitOut .fa-regular:hover {
+    transition: all linear 0.2s;
+    background-color: #ff2d37;
+    color: #ffffff !important;
+    border-radius: 100rem;
+}
+
+div.detail_payment--success>table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+}
+
+div.detail_payment--success>table td.image img {
+    display: block;
+    width: 150px !important;
+    height: 150px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.link--yourOder ul li {
+    display: inline-block;
+}
+
+.detail_payment--success-hidden {
+    display: none;
+}
+
+@keyframes backGroundShow {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

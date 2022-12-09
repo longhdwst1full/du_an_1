@@ -1,0 +1,128 @@
+.contentManager--product__footer--table table td.detailBill .detailBill--see {
+    padding: 5px 5px;
+    background-color: #93D3A1;
+    font-weight: bold;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.contentManager--product__footer--table table td.detailBill .detailBill--see:hover {
+    background-color: #74b182;
+}
+
+.show--detailOrderAdmin {
+    background-color: #0F172A;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.title__show--detailOrderAdmin h3 span {
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.title__show--detailOrderAdmin h3 {
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.title__show--detailOrderAdmin h3 {
+    color: #ffffff;
+}
+
+.table__detailOrdered table {
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 3px solid #ffffff;
+}
+
+.table__detailOrdered table tr>th {
+    color: #ffffff;
+    padding: 15px;
+}
+
+.table__detailOrdered table tr>td {
+    color: #ffffff;
+    text-align: center;
+    padding: 8px 15px;
+}
+
+.title__show--detailOrderAdmin button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    color: #ffffff;
+    border: 1px solid #74b182;
+    background-color: #74b182;
+    border-radius: 5px;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all linear 0.4s;
+}
+
+.title__show--detailOrderAdmin button:hover {
+    background-color: #478a56;
+    border: 1px solid #478a56;
+}
+
+td.status.order-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table.orderAdminTable tr td {
+    height: 46px !important;
+    padding: 0 15px !important;
+    font-size: 15px;
+}
+
+td.status.order-status button {
+    padding: 6px 10px !important;
+    font-size: 14px;
+}
+
+.tick--Order .fa-solid {
+    color: #74b182;
+    font-size: 28px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.tick--Order:hover>p {
+    display: block;
+}
+
+.tick--Order {
+    position: relative;
+}
+
+.tick--Order p {
+    background-color: #000000;
+    padding: 8px;
+    font-size: 13px;
+    position: absolute;
+    font-weight: bold;
+    border-radius: 5px;
+    top: -30px;
+    left: 25px;
+    display: none;
+    width: 120px;
+}
+
+.tick--Order p::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #000000;
+    position: absolute;
+    bottom: -5px;
+    left: 5px;
+}

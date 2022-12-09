@@ -1,0 +1,182 @@
+.contentManager.contentManager--product .show--productComment {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.contentManager.contentManager--product .show--productComment h2 {
+    color: #ffffff;
+}
+
+.contentManager.contentManager--product .show--productComment span {
+    color: #ffffff;
+    font-size: 24px;
+    padding: 0 20px 0 10px;
+}
+
+.btn-backtoComment button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #DD4B39;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    color: #ffffff;
+}
+
+.btn-backtoComment button:hover {
+    background-color: #a74133;
+}
+
+
+/* Start css code for add product */
+
+.contentManager--product__footer.contentManager--product__footer--addProduct>form>.form--left {
+    background-color: #0F172A;
+    padding: 20px 10px;
+    border-radius: 5px;
+    border-top: 2px solid #ffffff;
+}
+
+.contentManager--product__footer.contentManager--product__footer--addProduct>form>.form--left>div {
+    margin: 20px 0;
+}
+
+.contentManager--product__footer.contentManager--product__footer--addProduct>form>.form--right>div {
+    margin: 20px 0;
+}
+
+.contentManager--product__footer.contentManager--product__footer--addProduct>form>.form--right {
+    background-color: #0F172A;
+    padding: 20px 10px;
+    border-top: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+.contentManager--product__footer.contentManager--product__footer--addProduct>form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.contentManager--product__footer.contentManager--product__footer--addProduct>form p {
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.contentManager--product__footer.contentManager--product__footer--addProduct>form input:not(#special) {
+    color: #ffffff;
+    outline: none;
+    padding: 15px 10px;
+    border-radius: 5px;
+    background-color: #152036;
+    width: 100%;
+    border: 1px solid #000000;
+}
+
+.contentManager--product__footer.contentManager--product__footer--addProduct>form input.name::placeholder {
+    font-size: 13px;
+    color: #ccc;
+}
+
+.contentManager--product__footer.contentManager--product__footer--addProduct>form select {
+    background-color: #152036;
+    border: 1px solid #000000;
+    width: 100%;
+    outline: none;
+    padding: 15px 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.contentManager--product__footer.contentManager--product__footer--addProduct>form select option {
+    color: #ffffff;
+}
+
+.contentManager--product__footer.contentManager--product__footer--addProduct>form select * {
+    color: #20914b;
+}
+
+.contentManager--product__footer.contentManager--product__footer--addProduct>form>.form--right .special label {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.contentManager--product__footer.contentManager--product__footer--addProduct>form>.form--right .btn__action button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffffff;
+    outline: none;
+    background-color: #DD4B39;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.contentManager--product__footer.contentManager--product__footer--addProduct>form>.form--right .btn__action a {
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 13.3333;
+    background-color: #DD4B39;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    border: 1px solid #000000;
+}
+
+.contentManager--product__footer.contentManager--product__footer--addProduct>form>.form--right .btn__action>a:hover {
+    background-color: #a74133;
+}
+
+.contentManager--product__footer.contentManager--product__footer--addProduct>form>.form--right .btn__action--addProduct button.btn--addProduct {
+    background-color: #25AE5A;
+}
+
+.contentManager--product__footer.contentManager--product__footer--addProduct>form>.form--right .btn__action--addProduct button.btn--addProduct:hover {
+    background-color: #20914b;
+}
+
+
+/* End css code for add product */
+
+
+/* Start css code for add category */
+
+.contentManager--product__footer.contentManager--product__footer--addProduct>form>.form--category .btn__action a {
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #DD4B39;
+    font-size: 13.333px;
+    border: 1px solid #000000;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.contentManager--product__footer.contentManager--product__footer--addProduct>form>.form--category .btn__action button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffffff;
+    outline: none;
+    background-color: #DD4B39;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.contentManager--product__footer.contentManager--product__footer--addProduct>form>.form--category .btn__action>a:hover {
+    background-color: #a74133;
+}
+
+.contentManager--product__footer.contentManager--product__footer--addProduct>form>.form--category .btn__action--addProduct button.btn--addProduct {
+    background-color: #25AE5A;
+}
+
+.contentManager--product__footer.contentManager--product__footer--addProduct>form>.form--category .btn__action--addProduct button.btn--addProduct:hover {
+    background-color: #20914b;
+}
+
+
+/* End css code for add category */

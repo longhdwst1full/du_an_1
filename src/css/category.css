@@ -1,0 +1,31 @@
+.category--review--flex {
+    margin-top: 20px;
+}
+
+.mt_chung {
+    margin-top: 10px;
+}
+
+
+
+
+.review--category__p--more p {
+    text-align: center;
+    border: 1px solid #ff2d37;
+    color: #ffffff;
+    background-color: #ff2d37;
+    cursor: pointer;
+    height: 30px;
+    padding-top: 5px;
+    width: 130px;
+    border-radius: 5px;
+}
+
+.product--hot__img {
+    height: 198px;
+}
+
+.grid .review--category__p--more {
+    margin-top: 20px;
+    text-align: center;
+}

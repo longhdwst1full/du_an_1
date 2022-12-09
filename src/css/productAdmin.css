@@ -1,0 +1,439 @@
+.contentManager--product__header .contentManager--product__header--title input::placeholder {
+    color: #ccc;
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.contentManager--product__header .contentManager--product__header--title form input {
+    border: 1px solid #ffffff;
+    border-right: none;
+    background-color: #0F172A;
+    border-radius: 5px 0 0 5px;
+    color: #ffffff;
+    width: 600px;
+    padding: 15px 10px 15px 15px;
+    outline: none;
+}
+
+.contentManager--product__header .contentManager--product__header--title form {
+    display: flex;
+    padding-top: 30px;
+}
+
+.contentManager--product__header--control>span {
+    font-size: 15px;
+}
+
+.contentManager--product__header .contentManager--product__header--title form button {
+    border: 1px solid #ffffff;
+    border-left: none;
+    background-color: #0F172A;
+    border-radius: 0 5px 5px 0px;
+    font-size: 24px;
+    padding: 5px 15px 5px 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.contentManager--product__header .contentManager--product__header--title form button .fa-solid {
+    color: #ffffff;
+}
+
+.contentManager--product__header .contentManager--product__header--control span {
+    color: #ffffff;
+}
+
+.contentManager--product__header .contentManager--product__header--control {
+    display: flex;
+    align-items: center;
+}
+
+.contentManager--product__header .contentManager--product__header--control .fa-solid {
+    color: #ffffff;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.contentManager--product__header .contentManager--product__header--control .fa-brands {
+    color: #ffffff;
+    padding-right: 10px;
+    font-size: 22px;
+}
+
+.contentManager--product__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contentManager--product__footer {
+    padding: 20px 0;
+}
+
+.contentManager--product__footer .contentManager--product__footer--addProduct {
+    text-align: right;
+}
+
+.contentManager--product__footer .contentManager--product__footer--addProduct button .fa-solid {
+    color: #ffffff;
+    font-size: 18px;
+    padding-right: 5px;
+}
+
+.contentManager--product__footer .contentManager--product__footer--addProduct button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #00A85A;
+    border: 1px solid #00A85A;
+    outline: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 0.2s linear;
+}
+
+.contentManager--product__footer .contentManager--product__footer--addProduct button:hover {
+    background-color: #04884b;
+    border: 1px solid #04884b;
+}
+
+.contentManager--product__footer--table {
+    margin-top: 30px;
+    background-color: #0F172A;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    border-top: 2px solid #ffffff;
+}
+
+.contentManager--product__footer .contentManager--product__footer--table table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+/* Add order new */
+
+td.addOrderNew button {
+    padding: 5px;
+    background-color: #00A85A;
+    border: 1px solid #00A85A;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all linear 0.3s;
+}
+
+td.addOrderNew button:hover {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #00A85A;
+}
+
+td.addOrderNew button:hover .fa-solid {
+    color: #00A85A;
+}
+
+td.addOrderNew button .fa-solid {
+    color: #ffffff;
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.form--Order-direct {
+    padding: 30px 20px;
+}
+
+.form--Order-direct table {
+    border-top: 2px solid #ffffff;
+}
+
+.form--Order-direct {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+}
+
+.form--Order-direct form .form--right--inforUser p {
+    color: #ffffff;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.form--Order-direct form .form--right--inforUser input {
+    width: 100%;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+}
+
+.form--Order-direct form .form--right--inforUser button {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #00A85A;
+    border: 1px solid #00A85A;
+    cursor: pointer;
+    transition: all linear 0.3s;
+    color: #ffffff;
+}
+
+.form--Order-direct form .form--right--inforUser button:hover {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    color: #00A85A;
+}
+
+td.btn-removeOrderAdmin button {
+    padding: 5px;
+    background-color: #00A85A;
+    border: 1px solid #00A85A;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+
+td.btn-removeOrderAdmin button:hover {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+td.quantityOrderAdmin div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td.quantityOrderAdmin {
+    width: 15%;
+}
+
+td.quantityOrderAdmin input {
+    border: none;
+    outline: none;
+    background-color: #0F172A;
+    color: #ffffff;
+    font-size: 16px;
+    max-width: 15%;
+    padding: 5px 12px;
+}
+
+td.quantityOrderAdmin span a {
+    padding: 7px 14px;
+    display: block;
+    background-color: #ffffff;
+}
+
+td.quantityOrderAdmin span {
+    text-align: center;
+}
+
+td.priceDefault span {
+    color: #ffffff;
+}
+
+td.priceOrderAdmin span {
+    color: #ffffff;
+}
+
+span.minus,
+span.pluss {
+    cursor: pointer;
+    padding: 2px 5px;
+    background-color: #00A85A;
+}
+
+
+/* Add order new */
+
+.contentManager--product__footer .contentManager--product__footer--table table th {
+    color: #ffffff;
+    padding: 10px;
+}
+
+.contentManager--product__footer .contentManager--product__footer--table table td {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.contentManager--product__footer .contentManager--product__footer--table table td.btn-action a {
+    padding: 5px 6px;
+    background-color: #93D3A1;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contentManager--product__footer .contentManager--product__footer--table table td.btn-action a:hover {
+    background-color: #74b182;
+}
+
+.contentManager--product__footer .contentManager--product__footer--table table td.btn-action button .fa-solid {
+    font-size: 18px;
+}
+
+.contentManager--product__footer .contentManager--product__footer--table table td.status button {
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffffff
+}
+
+.contentManager--product__footer .contentManager--product__footer--table table td.status button.status-isset {
+    background-color: #F39C12;
+}
+
+.contentManager--product__footer .contentManager--product__footer--table table td.status button.status-empty {
+    background-color: #DD4B39;
+}
+
+.contentManager--product__footer .contentManager--product__footer--table table td.status button.status-empty.direct {
+    background-color: #6b32c5;
+}
+
+.contentManager--product__footer--table>ul {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.contentManager--product__footer--table>ul>li {
+    display: inline-block;
+}
+
+.contentManager--product__footer--table>ul>li>a {
+    background-color: #ffffff;
+    /* display: block; */
+    font-weight: bold;
+    padding: 8px 13px;
+}
+
+.contentManager--product__footer--table>ul>li>a:hover {
+    background-color: #F39C12;
+    color: #ffffff;
+    transition: all 0.3s linear;
+}
+
+.contentManager--product__footer--table>ul>li>a:hover>i {
+    color: #ffffff;
+}
+
+
+/* Product filer follow Category */
+
+.filer__Product--followCategory form select {
+    padding: 10px 6px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.filer__Product--followCategory form button {
+    padding: 10px 8px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid #00A85A;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #00A85A;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+
+.filer__Product--followCategory form button i {
+    color: #ffffff;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.filer__Product--followCategory form button:hover {
+    background-color: #04884b;
+    border: 2px solid #04884b;
+}
+
+.filer__Product--followCategory {
+    display: flex;
+}
+
+.filer__Product--followCategory {
+    display: flex;
+}
+
+.filer__Product--followCategory label.deleteChoose {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid #00A85A;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #00A85A;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: all linear 0.3s;
+    margin-left: 15px;
+}
+
+.filer__Product--followCategory button.deleteChoose:hover {
+    background-color: #04884b;
+    border: 2px solid #04884b;
+}
+
+
+/* Product filer follow Category */
+
+.size--ProductDetail ul li {
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.size--ProductDetail ul li input {
+    display: block;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 0;
+    width: 40px;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    transition: all linear 0.2s;
+}
+
+.size--ProductDetail ul li:hover>input {
+    background-color: #00A85A;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.size--ProductDetail ul li.active input {
+    background-color: #00A85A;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid #00A85A;
+}
+
+.btn__action.btn__action--addProduct a {
+    padding: 12px 15px;
+    background-color: #DD4B39;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 13.333px;
+    font-weight: bold;
+    transition: all linear 0.3s;
+}
+
+.btn__action.btn__action--addProduct a:hover {
+    background-color: #ffffff;
+    color: #DD4B39;
+}

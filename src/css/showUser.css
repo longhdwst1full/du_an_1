@@ -1,0 +1,13 @@
+.btn_ds_user--1 {
+  background-color: #0d6efd;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 9px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(235, 229, 229);
+  border: 1px solid black;
+}
+.mrg_top--btn {
+  margin-top: 45px !important;
+}

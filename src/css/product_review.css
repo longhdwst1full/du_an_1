@@ -1,0 +1,118 @@
+.form-comment ul li {
+    padding: 0px;
+    margin: 0px;
+}
+
+.form-comment ul {
+    list-style: none;
+}
+
+.form-comment--one {
+    display: flex;
+}
+
+.form-comment__content {
+    padding-left: 5px;
+    text-align: left;
+}
+
+.form-comment__content--text {
+    border: 1px solid gray;
+    background-color: #F0F2F5;
+    border-radius: 20px;
+    padding: 10px 10px 10px 15px;
+    width: 500px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.form-comment__avatar img {
+    border: 1px solid #F0F2F5;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 37px;
+    height: 37px;
+}
+
+.form-comment__content--text .id_comment {
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.form-comment__content--text .content_comment {
+    color: black;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 5px 0px 5px 0px;
+}
+
+.form-comment__content .form-comment__content--button {
+    padding: 5px 5px 5px 10px;
+    color: #65676B;
+    font-weight: 500;
+}
+
+.form-comment__content--button .a,
+.form-comment__content--button button.a {
+    color: #1d57cb;
+}
+
+.form-comment__content--button button.a {
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+
+.form-comment__content--button .a:hover {
+    text-decoration: underline;
+}
+
+.form_to_seen_cmt {
+    color: black;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.write_comment {
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px;
+    width: 300px;
+}
+
+.write_comment_send {
+    padding: 7px 20px;
+    border-radius: 5px;
+    border: none;
+    background: #ff2828;
+    color: white;
+    font-weight: 500;
+    font-size: large;
+}
+
+.write_comment_send:hover {
+    background-color: rgb(53, 45, 206);
+    cursor: pointer;
+}
+
+.stars ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.star {
+    font-size: 3em;
+    color: #ddd;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.orange {
+    color: orange !important;
+}
